@@ -10,29 +10,35 @@ class GreenController extends Controller
 {
 
     public function home(){
+        $data['title'] = "PAGE ACCUEIL";
         $data['annonces'] = Annonce::where('etat','=',1)->latest()->limit(10)->get();
         return view('pages.home',$data);
     }
     public function about(){
-        return view('pages.about');
+        $data['title'] = "QUI SOMMES NOUS ?";
+        return view('pages.about',$data);
     }
 
     public function services(){
-        return view("pages.service");
+        $data['title'] = "MA PAGE SERVICE";
+        return view("pages.service",$data);
     }
 
     public function projets(){
-        return view("pages.projet");
+        $data['title'] = "MA PAGE PROJET";
+        return view("pages.projet",$data);
     }
 
     public function contact(){
-        return view("pages.contact");
+        $data['title'] = "MA PAGE CONTACT";
+        return view("pages.contact",$data);
     }
 
     public function detailAnnonce($id){
         $data['annonce'] = Annonce::find($id);
+        $data['title'] = Annonce::find($id)->titre;
         $data['galleries'] = GallerieAnnonce::where('annonce_id', '=', Annonce::find($id)->id)->get();
-        $data['annonces'] = Annonce::latest()->where('id','!=',Annonce::find($id)->id)->limit(10)->get();
+        $data['annonces'] = Annonce::latest()->where('id','!=',Annonce::find($id)->id)->where('etat',1)->limit(10)->get();
         return view('pages.annonces.detail',$data);
     }
 

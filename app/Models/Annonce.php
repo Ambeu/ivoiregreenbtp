@@ -18,6 +18,7 @@ class Annonce extends Model
         "description",
         "prix_annonce",
         "user_id",
-        "type"
+        "type",
+        "etat"
     ];
 }

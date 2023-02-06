@@ -105,8 +105,8 @@ class Annonces extends Component
         $this->annonceID = $id;
         $this->annonceEdit = Annonce::find($id);
 
-        $this->titre = $this->annonceEdit->titre;
-        $this->lieu= $this->annonceEdit->lieu;
+       $this->titre = $this->annonceEdit->titre;
+       $this->lieu= $this->annonceEdit->lieu;
        $this->proprietaire= $this->annonceEdit->proprietaire;
        $this->contact2= $this->annonceEdit->contact2;
        $this->description= $this->annonceEdit->description;
@@ -136,6 +136,7 @@ class Annonces extends Component
             "ville" => $this->ville,
             "type" => $this->type,
             "user_id" => auth()->user()->id,
+            "etat" => 1
         ];
 
         if(!empty($this->imageAnnonce)){
