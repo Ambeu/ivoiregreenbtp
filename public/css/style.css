@@ -80,7 +80,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #06830d;
+    background: #ffffff;
 }
 
 .top-bar .logo {
@@ -99,9 +99,8 @@ a:focus {
 
 .top-bar .logo img {
     max-width: 100%;
-    max-height: 60px;
+    max-height: 90px;
 }
-
 .top-bar .top-bar-item {
     display: flex;
     align-items: center;
@@ -157,7 +156,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #06830d;
+    background: #ffffff;
     transition: .3s;
 }
 

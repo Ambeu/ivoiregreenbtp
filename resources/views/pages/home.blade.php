@@ -147,7 +147,7 @@
                                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                                         <div class="blog-item">
                                             <div class="blog-img">
-                                                <img src="img/blog-1.jpg" alt="Image">
+                                                <img src="{{asset('images/newimg/2.jpg')}}" alt="Image">
                                             </div>
                                             <div class="blog-title">
                                                 <h3>CONCEPTION ET ETUDES</h3>
@@ -166,7 +166,7 @@
                                     <div class="col-lg-4 col-md-6 wow fadeInUp">
                                         <div class="blog-item">
                                             <div class="blog-img">
-                                                <img src="img/blog-2.jpg" alt="Image">
+                                                <img src="{{asset('images/newimg/1.jpg')}}" alt="Image">
                                             </div>
                                             <div class="blog-title">
                                                 <h3>IMMOBILIER</h3>
@@ -187,7 +187,7 @@
                                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                                         <div class="blog-item">
                                             <div class="blog-img">
-                                                <img src="img/blog-3.jpg" alt="Image">
+                                                <img src="{{asset('images/newimg/4.jpg')}}" alt="Image">
                                             </div>
                                             <div class="blog-title">
                                                 <h3>TRAVAUX PUBLICS</h3>
@@ -208,7 +208,7 @@
                                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                                         <div class="blog-item">
                                             <div class="blog-img">
-                                                <img src="img/vdeterrain.jpg" alt="Image">
+                                                <img src="{{asset('images/newimg/3.jpeg')}}" alt="Image">
                                             </div>
                                             <div class="blog-title">
                                                 <h3>LOTISSEMENT ET LA VENTE <br>
@@ -536,103 +536,103 @@
                 <div class="container">
                     <div class="section-header text-center">
                         <p>Projets</p>
-                        <h2>Projets En Cours et Terminé</h2>
+                        <h2>GALLERIES</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/service-1.jpg" alt="Image">
-                                    <div class="service-overlay">
+                                    <img src="{{asset('images/projetImage/1.jpeg')}}" alt="Image">
+                                    {{-- <div class="service-overlay">
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                         </p>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <div class="service-text">
+                                {{-- <div class="service-text">
                                     <h3>Building Construction</h3>
                                     <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/service-2.jpg" alt="Image">
-                                    <div class="service-overlay">
+                                    <img src="{{asset('images/projetImage/2.jpeg')}}" alt="Image">
+                                    {{-- <div class="service-overlay">
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                         </p>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <div class="service-text">
-                                    <h3>House Renovation</h3>
-                                    <a class="btn" href="img/service-2.jpg" data-lightbox="service">+</a>
-                                </div>
+                                {{-- <div class="service-text">
+                                    <h3>Building Construction</h3>
+                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
+                                </div> --}}
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/service-3.jpg" alt="Image">
-                                    <div class="service-overlay">
+                                    <img src="{{asset('images/projetImage/3.jpeg')}}" alt="Image">
+                                    {{-- <div class="service-overlay">
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                         </p>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <div class="service-text">
-                                    <h3>Architecture Design</h3>
-                                    <a class="btn" href="img/service-3.jpg" data-lightbox="service">+</a>
-                                </div>
+                                {{-- <div class="service-text">
+                                    <h3>Building Construction</h3>
+                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
+                                </div> --}}
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/service-4.jpg" alt="Image">
-                                    <div class="service-overlay">
+                                    <img src="{{asset('images/projetImage/4.jpeg')}}" alt="Image">
+                                    {{-- <div class="service-overlay">
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                         </p>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <div class="service-text">
-                                    <h3>Interior Design</h3>
-                                    <a class="btn" href="img/service-4.jpg" data-lightbox="service">+</a>
-                                </div>
+                                {{-- <div class="service-text">
+                                    <h3>Building Construction</h3>
+                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
+                                </div> --}}
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/service-5.jpg" alt="Image">
-                                    <div class="service-overlay">
+                                    <img src="{{asset('images/projetImage/5.jpeg')}}" alt="Image">
+                                    {{-- <div class="service-overlay">
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                         </p>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <div class="service-text">
-                                    <h3>Fixing & Support</h3>
-                                    <a class="btn" href="img/service-5.jpg" data-lightbox="service">+</a>
-                                </div>
+                                {{-- <div class="service-text">
+                                    <h3>Building Construction</h3>
+                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
+                                </div> --}}
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/service-6.jpg" alt="Image">
-                                    <div class="service-overlay">
+                                    <img src="{{asset('images/projetImage/6.jpeg')}}" alt="Image">
+                                    {{-- <div class="service-overlay">
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                         </p>
-                                    </div>
+                                    </div> --}}
                                 </div>
-                                <div class="service-text">
-                                    <h3>Painting</h3>
-                                    <a class="btn" href="img/service-6.jpg" data-lightbox="service">+</a>
-                                </div>
+                                {{-- <div class="service-text">
+                                    <h3>Building Construction</h3>
+                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

@@ -5,8 +5,8 @@
                         <div class="col-lg-4 col-md-12">
                             <div class="logo">
                                 <a href="{{ route('home') }}">
-                                    <h2>IVOIRE GREEN <strong style="color: yellow;">BTP</strong></h2>
-                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                    {{-- <h2>IVOIRE GREEN <strong style="color: yellow;">BTP</strong></h2> --}}
+                                  <img src="{{asset('images/logo-ivoire-02.png')}}" alt="Logo" width="150px" > 
                                 </a>
                             </div>
                         </div>
