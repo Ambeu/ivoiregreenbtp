@@ -536,7 +536,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         <p>Projets</p>
-                        <h2>GALLERIES</h2>
+                        <h2>GALLERIE</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

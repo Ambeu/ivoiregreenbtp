@@ -24,7 +24,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img/blog-1.jpg" alt="Image">
+                        <img src="{{asset('images/newimg/2.jpg')}}" alt="Image">
                     </div>
                     <div class="blog-title">
                         <h3>CONCEPTION ET ETUDES</h3>
@@ -43,7 +43,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img/blog-2.jpg" alt="Image">
+                        <img src="{{asset('images/newimg/1.jpg')}}" alt="Image">
                     </div>
                     <div class="blog-title">
                         <h3>IMMOBILIER</h3>
@@ -64,7 +64,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img/blog-3.jpg" alt="Image">
+                        <img src="{{asset('images/newimg/4.jpg')}}" alt="Image">
                     </div>
                     <div class="blog-title">
                         <h3>TRAVAUX PUBLICS</h3>
@@ -85,7 +85,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img/vdeterrain.jpg" alt="Image">
+                        <img src="{{asset('images/newimg/3.jpeg')}}" alt="Image">
                     </div>
                     <div class="blog-title">
                         <h3>LOTISSEMENT ET LA VENTE <br>
